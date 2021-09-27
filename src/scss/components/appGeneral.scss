@@ -1,0 +1,10 @@
+$marco: #4d3730;
+$fondo: #aaa7a3;
+$fuente-1: helvetica, arial, sans-serif;
+
+.marco{
+   border: 25px solid $marco;
+	font-family: verdana;
+	background: $fondo;
+   min-height: 100vh;
+}

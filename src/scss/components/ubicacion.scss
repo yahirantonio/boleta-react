@@ -1,0 +1,34 @@
+.main_div_form{
+   font-weight: 600;
+   margin: 50px 30px;
+   height: 80px;
+}
+
+.form{
+   display: grid;
+   grid-template-columns: 45% 35% 1fr;
+	grid-template-rows: 50% 50%;
+   height: 100%;
+   align-items: center;
+}
+
+input{
+	border-radius: 15px;
+	border: 0px;
+	outline: none;
+   &:focus{
+      box-shadow: 5px 15px 15px #876A6A;
+   }
+}
+
+.form_group_input_mini{
+   width: 40px;
+}
+
+.fourth_form_group{
+   grid-column: 1/4;
+}
+
+.form_group_input_municipality{
+   width: 80%;
+}

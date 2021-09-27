@@ -1,0 +1,8 @@
+.main_political_card{
+   text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-row-gap: 10px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
